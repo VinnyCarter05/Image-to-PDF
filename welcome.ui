@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogWelcome</class>
+ <widget class="QDialog" name="DialogWelcome">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>225</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Image to PDF Converter</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>mfmc logo 2015 (square).png</normaloff>mfmc logo 2015 (square).png</iconset>
+  </property>
+  <property name="whatsThis">
+   <string>Image to PDF Converter for Markham Family Medical Centre</string>
+  </property>
+  <widget class="QGroupBox" name="groupBoxWelcome">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>531</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Image to PDF Converter</string>
+   </property>
+   <widget class="QPushButton" name="pushButtonSel">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>70</y>
+      <width>91</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="statusTip">
+     <string>Select files to convert to PDF</string>
+    </property>
+    <property name="whatsThis">
+     <string>Select files to convert to PDF</string>
+    </property>
+    <property name="text">
+     <string>Select Files</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonExit">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>110</y>
+      <width>91</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="statusTip">
+     <string>Exit from program</string>
+    </property>
+    <property name="whatsThis">
+     <string>Exit from program</string>
+    </property>
+    <property name="text">
+     <string>Exit</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonDir">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>30</y>
+      <width>91</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="statusTip">
+     <string>Select entire directory to convert to PDF</string>
+    </property>
+    <property name="whatsThis">
+     <string>Select entire directory to convert to PDF</string>
+    </property>
+    <property name="text">
+     <string>Select Directory</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelMFMC">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>311</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="mfmcimg2pdf.qrc">:/mfmc logo 2015 (transparent).png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="mfmcimg2pdf.qrc"/>
+ </resources>
+ <connections/>
+</ui>
